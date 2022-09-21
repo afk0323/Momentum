@@ -1,0 +1,47 @@
+.hidden{
+    display: none;
+}
+
+/* 메인 */
+.main{
+    background-color: #f4f5f8, #7987a1, #3b4863;
+    font-family: 'Y_Spotlight', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+    margin-top: 15%; 
+}
+
+#clock{
+    font-size: 600%;    
+}
+
+#weather{
+    font-size: 150%;
+}
+
+/* 할일 */
+.list{
+    font-family: 'Y_Spotlight', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-top: -10%;
+    text-align: left;
+    border: none;
+}
+
+.list input{
+    border: none;
+}
+
+.list button{
+    border: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* font */
+@font-face {
+    font-family: 'Y_Spotlight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/Y_Spotlight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

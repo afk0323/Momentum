@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contenst="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <title>Momentum</title>
+</head>
+<body>
+
+    <!-- 로그인 -->
+    <form id="login-form" class="hidden input-lg form-inline">
+        <input class="form-control" required maxlength="15" type="text" placeholder="이름을 입력해주세요 !">
+        <button class="btn btn-default btn-primary">로그인</button>
+    </form>
+
+
+    <!-- 메인 -->
+    <div class="main">
+
+        <!-- 인사 -->
+        <h3 id="greeting" class="hidden"></h3>
+
+        <!-- 시계 -->
+        <div id="clock"></div>
+            
+        <!-- 날씨 -->
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+
+    
+    <!-- 할일 -->
+    <div class="list">
+        <form id="todo-form" class="input-lg form-inline">
+            <input class="form-control" type="text" placeholder="📌 오늘의 할 일" required>
+        </form>
+
+        <ul id="todo-list"></ul>
+    </div>
+
+
+    <!-- 명언
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    -->
+
+    <!-- JS -->
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <!-- <script src="js/quote.js"></script> -->
+    <!-- <script src="js/background.js"></script> -->
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
